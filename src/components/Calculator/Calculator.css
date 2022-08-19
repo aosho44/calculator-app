@@ -1,0 +1,70 @@
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#calculatorBody {
+	display: grid;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+#calcScreen {
+	font-size: 40px;
+	padding: 20px;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: grey;
+	margin-bottom: 20px;
+	color: white;
+	direction: rtl;
+	caret-color: transparent;
+}
+
+#calcScreen:hover {
+	background-color: rgba(128, 128, 128, 0.8);
+}
+
+#functionDiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.funcButton {
+	background-color: red;
+	padding: 20px;
+	font-size: 30px;
+	margin: 2px;
+}
+
+#numDiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#numSplitDiv {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.numberButton {
+	padding: 20px;
+	font-size: 30px;
+	margin: 3px;
+}
+
+.equalsButton {
+	padding: 20px;
+	font-size: 30px;
+	margin: 3px;
+}
