@@ -41,24 +41,21 @@ input[type='number'] {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-button {
-	cursor: pointer;
-	transition: opacity 0.25s;
-}
-
-button:active {
-	opacity: 0.6;
-}
-
 button:hover {
 	opacity: 0.8;
 }
 
 .funcButton {
 	background-color: red;
+	cursor: pointer;
 	font-size: 30px;
 	margin: 2px;
 	padding: 20px;
+	transition: opacity 0.25s;
+}
+
+.funcButton:active {
+	opacity: 0.5;
 }
 
 #numDiv {
@@ -73,13 +70,25 @@ button:hover {
 
 .numberButton {
 	background-color: white;
+	cursor: pointer;
 	font-size: 30px;
 	margin: 3px;
 	padding: 20px;
+	transition: opacity 0.25s;
+}
+
+.numberButton:active {
+	opacity: 0.5;
 }
 
 .equalsButton {
+	cursor: pointer;
 	font-size: 30px;
 	margin: 3px;
 	padding: 20px;
+	transition: opacity 0.25s;
+}
+
+.equalsButton:active {
+	opacity: 0.5;
 }
